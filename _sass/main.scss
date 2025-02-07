@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$background-color: #cccddd;
+$text-color: #2f2f2f;
+$table-color: #babddb;
+$link-color: #bbbccc;
+
+html {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.header {
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+a {
+  color: $text-color;
+  text-decoration: underline dotted;
+}
+
+ul {
+  background-color: $table-color;
+}
+
+nav {
+  background-color: $text-color;
+  color: $background-color;
+  width: 100%;
+  display: flex;
+  align-content: center;
+
+  a {
+    width: 100px;
+    text-decoration: none;
+    background-color: red;
+    padding: 3px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 10px;
+  }
+
+  th:nth-child(1), td:nth-child(1) {
+      border-right: 2px solid $text-color;
+  }
+
+  tr:nth-child(even) {
+    background-color: $table-color;
+  }
+}
