@@ -6,6 +6,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: /:categories/:slug
+      category: "recipes"
   - scope:
       path: ""
     values:
