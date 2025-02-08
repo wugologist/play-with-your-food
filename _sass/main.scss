@@ -9,21 +9,44 @@ html {
   background-color: $background-color;
   color: $text-color;
   font-family: Roboto, sans-serif;
+  height: 100%
 }
 
 body {
   margin: 0px;
+  height: 100%;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-  font-size: 32pt;
+  display: flex;
+  font-size: 36pt;
   font-weight: bold;
-  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
-.content {
+footer {
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 7px;
+  background-color: $text-color;
+  color: $background-color;
+}
+
+main {
   max-width: 1000px;
   margin: auto;
+  flex-grow: 1;
 }
 
 a {
@@ -40,13 +63,15 @@ nav {
   color: $background-color;
   width: 100%;
   display: flex;
-  align-content: center;
+  justify-content: center;
 
   a {
     width: 100px;
     text-decoration: none;
-    background-color: red;
-    padding: 3px;
+    padding: 7px;
+    text-align: center;
+    color: $background-color;
+    font-weight: 500;
   }
 }
 

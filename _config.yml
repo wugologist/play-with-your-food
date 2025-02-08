@@ -1,6 +1,4 @@
-collections:
-  authors:
-    output: true
+title: Play With Your Food
 
 defaults:
   - scope:
@@ -8,7 +6,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Michael"
   - scope:
       path: ""
     values:

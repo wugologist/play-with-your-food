@@ -10,7 +10,7 @@ layout: default
 {% if page.tags %}
 Tags:
   {% for tag in page.tags %}
-    <a href="/{{tag | url_encode }}">{{ tag }}</a>
+    <a href="/tag/{{tag | url_encode }}">{{ tag }}</a>
   {% endfor %}
 {% endif %}
 

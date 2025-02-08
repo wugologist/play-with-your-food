@@ -2,17 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title.size > 0 %}{{ page.title }} | {% endif %}Play With Your Food</title>
+    <title>
+      {% if page.title.size > 0 %}{{ page.title }} | {% endif %}Play With Your Food
+    </title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    <div class="header">Play With Your Food</div>
-    {% include navigation.html %}
-    <div class="content">
-      {{ content }}
+    <div class="wrapper">
+      <header>
+        <a class="header" href="/">Play With Your Food</a>
+        {% include navigation.html %}
+      </header>
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        ©{{ 'now' | date: "%Y" }} Play With Your Food
+      </footer>
     </div>
   </body>
 </html>
