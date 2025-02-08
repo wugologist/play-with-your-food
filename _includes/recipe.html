@@ -1,0 +1,85 @@
+{% assign yaml_path = include.path | remove_first: "_posts/" | remove_first: ".md" %}
+<hr>
+
+<h1 id="recipe">Recipe</h1>
+
+<p>Makes {{site.data.recipes[yaml_path].yield}}</p>
+
+<h2>Prep List</h2>
+<fieldset>
+    {% for ingredient in site.data.recipes[yaml_path].ingredients %}
+        <div class="checklist-item">
+            <input type="checkbox" id="{{ingredient.name | slugify}}" />
+            <label for="{{ingredient.name | slugify}}">
+                {{ingredient.quantity}} {{ingredient.name}}
+                {%- if ingredient.prep != nil -%}
+                , {{ingredient.prep}}
+                {% endif %}
+                {% if ingredient.note != nil %}
+                    <span class="note">
+                        {{ ingredient.note }}         
+                    </span>
+                {% endif %}
+            </label>
+        </div>
+    {% endfor %}
+</fieldset>
+
+{% if site.data.recipes[yaml_path].equipment.size > 0 %}
+<h2>Equipment</h2>
+<fieldset>
+    {% for equipment in site.data.recipes[yaml_path].equipment %}
+        <div class="checklist-item">
+            <input type="checkbox" id="{{equipment | slugify}}" />
+            <label for="{{equipment | slugify}}">
+                {{ equipment }}
+                {% if ingredient.note != nil %}
+                    <span class="note">
+                        {{ ingredient.note }}         
+                    </span>
+                {% endif %}
+            </label>
+        </div>
+    {% endfor %}
+</fieldset>
+{% endif %}
+
+<h2>Procedure</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>Preparation</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for step in site.data.recipes[yaml_path].steps %}
+            <tr>
+                <td>
+                    {% for ingredient in site.data.recipes[yaml_path].ingredients %}
+                        {% if ingredient.step == forloop.parentloop.index0 %}
+                            <p>
+                                {{ingredient.quantity}} {{ingredient.name}}
+                                {%- if ingredient.prep != nil -%}
+                                , {{ingredient.prep}}
+                                {% endif %}
+                            </p>
+                        {% endif %}
+                    {% endfor %}
+                </td>
+                <td>
+                    {{ forloop.index }}. {{ step }}
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% if site.data.recipes[yaml_path].notes.size > 0 %}
+<h2>Notes</h2>
+<div class="notes">
+    {% for note in site.data.recipes[yaml_path].notes %}
+    <p>{{note}}</p>
+    {% endfor %}
+</div>
+{% endif %}

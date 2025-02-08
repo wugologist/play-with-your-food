@@ -126,3 +126,8 @@ fieldset {
 input:checked + label {
   text-decoration: line-through;
 }
+
+.notes {
+  padding: 10px;
+  background-color: $table-color;
+}
