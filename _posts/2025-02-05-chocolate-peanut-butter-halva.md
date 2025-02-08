@@ -2,18 +2,18 @@
 tags: [chocolate, dessert, gluten free, vegan]
 
 ingredients: [
-    "Natural peanut butter, 1 lb",
-    "Diamond Crystal kosher salt, 1 tsp, only if peanut butter is unsalted",
-    "Granulated sugar, 330g",
-    "Water, approximately 1/2 cup",
-    "Chocolate chips or roughly chopped chocolate, 12 oz."
+    "1 lb. natural peanut butter",
+    "1 tsp. Diamond Crystal kosher salt, only if peanut butter is unsalted",
+    "330 g. granulated sugar",
+    "1/2 c. water (approximately)",
+    "12 oz. chocolate chips (or roughly chopped chocolate)"
 ]
 
 equipment: [
-    "Medium heatproof bowl",
-    "Small saucepan",
-    "Digital or candy thermometer",
-    "Heatproof spatula"
+    "medium heatproof bowl",
+    "small saucepan",
+    "digital or candy thermometer",
+    "heatproof spatula"
 ]
 ---
 
@@ -34,16 +34,16 @@ Semper elementum nunc quis, ridiculus natoque fringilla dignissim felis a. Metus
 ## Equipment
 {% include checklist.html items=page.equipment %}
 
-## Preparation
+## Procedure
 
-| Ingredients                                                        | Preparation                                                                                                                                                                                               |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Natural peanut butter, 1lb <br> Diamond Crystal kosher salt, 1 tsp | In a medium heatproof bowl, add peanut butter and salt (if using). Set aside.                                                                                                                             |
-| Water, approximately 1/2 cup <br> Granulated sugar, 330g           | In a small saucepan, combine granulated sugar and water. Set over medium heat and bring to a boil. Cook until mixture reaches 245F.                                                                       |
-|                                                                    | Immediately pour sugar mixture into the bowl with the peanut butter and stir to combine. Continue stirring until mixture pulls aside from the sides of the bowl.                                          |
-|                                                                    | Remove peanut butter mixture to a parchment-lined surface. Place another sheet of parchment on top and gently press and roll mixture until it is one inch thick. Let cool.                                |
-| Chocolate chips  or roughly chopped chocolate, 12 oz.              | Meanwhile, wash and completely dry bowl and spatula. Bring an inch of water to a bare simmer in the saucepan and set bowl over it to form a double boiler. Add chocolate and melt, stirring occasionally. |
-|                                                                    | Cut cooled halva into 1-inch cubes. Using two forks, dip each cube into melted chocolate, then remove to parchment paper to cool. Store in fridge.                                                        |
+| Ingredients                                                         | Preparation                                                                                                                                                                                               |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 lb. natural peanut butter <br> 1 tsp. Diamond Crystal kosher salt | Add peanut butter to a medium heatproof bowl and stir in salt, if using. Set aside.                                                                                                                       |
+| 1/2 c. water <br> 330 g. granulated sugar                           | In a small saucepan, combine granulated sugar and water. Set over medium heat and bring to a boil. Cook until mixture reaches 245F.                                                                       |
+|                                                                     | Immediately pour sugar mixture into the bowl with the peanut butter and stir to combine. Continue stirring until mixture pulls aside from the sides of the bowl.                                          |
+|                                                                     | Remove peanut butter mixture to a parchment-lined surface. Place another sheet of parchment on top and gently press and roll mixture until it is one inch thick. Let cool.                                |
+| 12 oz. chocolate chips                                              | Meanwhile, wash and completely dry bowl and spatula. Bring an inch of water to a bare simmer in the saucepan and set bowl over it to form a double boiler. Add chocolate and melt, stirring occasionally. |
+|                                                                     | Cut cooled halva into 1-inch cubes. Using two forks, dip each cube into melted chocolate, then remove to parchment paper to cool. Store in fridge.                                                        |
 
 # Notes
 1. Don't use processed peanut butter
