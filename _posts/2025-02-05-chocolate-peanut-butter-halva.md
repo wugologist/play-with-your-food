@@ -1,5 +1,20 @@
 ---
 tags: [chocolate, dessert, gluten free, vegan]
+
+ingredients: [
+    "Natural peanut butter, 1 lb",
+    "Diamond Crystal kosher salt, 1 tsp, only if peanut butter is unsalted",
+    "Granulated sugar, 330g",
+    "Water, approximately 1/2 cup",
+    "Chocolate chips or roughly chopped chocolate, 12 oz."
+]
+
+equipment: [
+    "Medium heatproof bowl",
+    "Small saucepan",
+    "Digital or candy thermometer",
+    "Heatproof spatula"
+]
 ---
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Facilisis vehicula mus pellentesque interdum nam nunc? Sollicitudin porttitor morbi, fames mauris etiam urna pellentesque sociosqu. Vulputate ridiculus aptent condimentum neque enim auctor auctor. Nullam ante non turpis parturient phasellus. Placerat proin nascetur imperdiet suscipit eu nam leo ad. Dis fusce ipsum fusce massa parturient consequat, urna ligula. Morbi semper libero libero vehicula facilisi curabitur.
@@ -14,17 +29,12 @@ Semper elementum nunc quis, ridiculus natoque fringilla dignissim felis a. Metus
 
 # Recipe
 ## Prep List
-- <input type="checkbox"> Natural peanut butter[¹](#notes), 1 lb
-- <input type="checkbox"> Diamond Crystal kosher salt[²](#notes), 1 tsp, only if peanut butter is unsalted
-- <input type="checkbox"> Granulated sugar, 330g
-- <input type="checkbox"> Water, approximately 1/2 cup
-- <input type="checkbox"> Chocolate chips or roughly chopped chocolate, 12 oz.
+{% include checklist.html items=page.ingredients %}
 
 ## Equipment
-- <input type="checkbox"> Medium heatproof bowl
-- <input type="checkbox"> Small saucepan
-- <input type="checkbox"> Digital or candy thermometer
-- <input type="checkbox"> Heatproof spatula
+{% include checklist.html items=page.equipment %}
+
+## Preparation
 
 | Ingredients                                                        | Preparation                                                                                                                                                                                               |
 | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,0 +1,11 @@
+<fieldset>
+    {% if {{include.title}} %}
+        <legend>{{include.title}}</legend>
+    {% endif %}
+    {% for item in include.items %}
+        <div class="checklist-item">
+            <input type="checkbox" id="{{item}}" />
+            <label for="{{item}}">{{item}}</label>
+        </div>
+    {% endfor %}
+</fieldset>

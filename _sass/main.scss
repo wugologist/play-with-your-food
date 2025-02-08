@@ -44,7 +44,7 @@ footer {
 }
 
 main {
-  max-width: 1000px;
+  max-width: 800px;
   margin: auto;
   flex-grow: 1;
 }
@@ -90,4 +90,28 @@ table {
   tr:nth-child(even) {
     background-color: $table-color;
   }
+}
+
+fieldset {
+  background-color: $table-color;
+  border-style: hidden;
+
+  .checklist-item {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+  }
+
+  input {
+    width: 20px;
+    height: 20px;
+    accent-color: $text-color;
+  }
+  label {
+    align-content: center;
+  }
+}
+
+input:checked + label {
+  text-decoration: line-through;
 }
