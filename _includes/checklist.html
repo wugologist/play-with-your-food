@@ -4,8 +4,19 @@
     {% endif %}
     {% for item in include.items %}
         <div class="checklist-item">
-            <input type="checkbox" id="{{item}}" />
-            <label for="{{item}}">{{item}}</label>
+            <input type="checkbox" id="{{forloop.index0}}" />
+            <label for="{{forloop.index0}}">
+                {% if item.first %} 
+                    {{ item[0] }} 
+                {% else %}
+                    {{ item }} 
+                {% endif %}
+                {% if item.size >= 3 %} 
+                    <span class="note">
+                        {{ item[2] }}         
+                    </span>
+                {% endif %}     
+            </label>
         </div>
     {% endfor %}
 </fieldset>
