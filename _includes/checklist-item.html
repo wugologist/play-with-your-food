@@ -1,0 +1,14 @@
+<div class="checklist-item">
+    <input type="checkbox" id="{{include.name | slugify}}" />
+    <label for="{{include.name | slugify}}">
+        {{include.quantity}} {{include.name}}
+        {%- if include.prep != nil -%}
+        , {{include.prep}}
+        {% endif %}
+        {% if include.note != nil %}
+            <span class="note">
+                {{ include.note }}         
+            </span>
+        {% endif %}
+    </label>
+</div>

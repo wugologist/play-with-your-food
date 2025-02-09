@@ -1,27 +1,21 @@
-{% assign yaml_path = include.path | remove_first: "_posts/" | remove_first: ".md" %}
+{% assign yaml_path = include.path | remove_first: "_posts/" | remove_first: "_drafts/" | remove_first: ".md" %}
 <hr>
 
-<h1 id="recipe">Recipe</h1>
+<h1 id="recipe">{{include.title}}</h1>
 
 <p>Makes {{site.data.recipes[yaml_path].yield}}</p>
 
 <h2>Prep List</h2>
 <fieldset>
+    {% for ingredient_group in site.data.recipes[yaml_path].ingredient_groups %}
+        <div class="ingredient-group">{{ ingredient_group[0] }}</div>
+        {% for ingredient in ingredient_group[1] %}
+            {% include checklist-item.html quantity=ingredient.quantity name=ingredient.name prep=ingredient.prep note=ingredient.note %}
+        {% endfor %}
+    {% endfor %}
+
     {% for ingredient in site.data.recipes[yaml_path].ingredients %}
-        <div class="checklist-item">
-            <input type="checkbox" id="{{ingredient.name | slugify}}" />
-            <label for="{{ingredient.name | slugify}}">
-                {{ingredient.quantity}} {{ingredient.name}}
-                {%- if ingredient.prep != nil -%}
-                , {{ingredient.prep}}
-                {% endif %}
-                {% if ingredient.note != nil %}
-                    <span class="note">
-                        {{ ingredient.note }}         
-                    </span>
-                {% endif %}
-            </label>
-        </div>
+        {% include checklist-item.html quantity=ingredient.quantity name=ingredient.name prep=ingredient.prep note=ingredient.note %}
     {% endfor %}
 </fieldset>
 
@@ -56,14 +50,17 @@
         {% for step in site.data.recipes[yaml_path].steps %}
             <tr>
                 <td>
+                    {% for ingredient_group in site.data.recipes[yaml_path].ingredient_groups %}
+                        {% for ingredient in ingredient_group[1] %}
+                            {% if ingredient.step == forloop.parentloop.parentloop.index or ingredient.step contains forloop.parentloop.parentloop.index  %}
+                                {% include ingredient.html quantity=ingredient.quantity name=ingredient.name prep=ingredient.prep %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+
                     {% for ingredient in site.data.recipes[yaml_path].ingredients %}
-                        {% if ingredient.step == forloop.parentloop.index0 %}
-                            <p>
-                                {{ingredient.quantity}} {{ingredient.name}}
-                                {%- if ingredient.prep != nil -%}
-                                , {{ingredient.prep}}
-                                {% endif %}
-                            </p>
+                        {% if ingredient.step == forloop.parentloop.index or ingredient.step contains forloop.parentloop.index  %}
+                            {% include ingredient.html quantity=ingredient.quantity name=ingredient.name prep=ingredient.prep %}
                         {% endif %}
                     {% endfor %}
                 </td>

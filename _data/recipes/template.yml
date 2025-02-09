@@ -1,0 +1,28 @@
+yield: 1 serving
+
+ingredients:
+  - name: eggs
+    quantity: 3
+    step: 1
+  - name: cheese
+    quantity: 1 oz.
+    step: 4
+    prep: shredded
+    note: any type
+  - name: butter
+    quantity: 1/2 Tbsp.
+    step: 2
+  - name: kosher salt
+    step: 1
+
+equipment: 
+  - 8-inch nonstick pan
+
+steps:
+  - In a small bowl, beat eggs with a pinch of salt until smooth.
+  - In nonstick pan, melt butter over medium heat until foamy.
+  - Add eggs to pan and stir frequently until nearly cooked.
+  - Add cheese, stir to combine, then remove from pan.
+
+notes:
+  - Remove the eggs from the pan just before they're completely cooked, as they'll continue to cook on the plate.

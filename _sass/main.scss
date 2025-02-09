@@ -43,6 +43,7 @@ footer {
   padding: 7px;
   background-color: $text-color;
   color: $background-color;
+  margin-top: 20px;
 }
 
 main {
@@ -120,6 +121,7 @@ fieldset {
   }
   label {
     align-content: center;
+    margin-left: 5px;
   }
 }
 
@@ -130,4 +132,8 @@ input:checked + label {
 .notes {
   padding: 10px;
   background-color: $table-color;
+}
+
+.ingredient-group {
+  font-weight: 600;
 }

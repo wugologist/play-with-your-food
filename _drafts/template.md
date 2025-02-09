@@ -1,5 +1,5 @@
 ---
-tags: [chocolate, dessert, gluten free, vegan]
+tags: []
 ---
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Facilisis vehicula mus pellentesque interdum nam nunc? Sollicitudin porttitor morbi, fames mauris etiam urna pellentesque sociosqu. Vulputate ridiculus aptent condimentum neque enim auctor auctor. Nullam ante non turpis parturient phasellus. Placerat proin nascetur imperdiet suscipit eu nam leo ad. Dis fusce ipsum fusce massa parturient consequat, urna ligula. Morbi semper libero libero vehicula facilisi curabitur.
@@ -12,4 +12,4 @@ Platea nunc turpis finibus duis imperdiet class non adipiscing! Vivamus nulla ti
 
 Semper elementum nunc quis, ridiculus natoque fringilla dignissim felis a. Metus fringilla tristique mauris condimentum gravida. Dapibus tempus torquent vulputate phasellus at taciti metus. Himenaeos adipiscing etiam suspendisse habitant facilisis gravida. Varius quis ligula at rutrum auctor nulla gravida. Alitora accumsan molestie sem himenaeos ultricies faucibus fusce. Molestie vestibulum vivamus nulla malesuada natoque nulla tristique.
 
-{% include recipe.html path=page.path title=page.title%}
+{% include recipe.html path=page.path title=page.title %}
