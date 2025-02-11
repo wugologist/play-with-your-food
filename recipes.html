@@ -1,13 +1,31 @@
 ---
-title: Blog
 ---
-<h1>Latest Posts</h1>
+{% assign all_tags = "" | split: "" %}
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
+{% for tag_group in site.data.tags %}
+  <h1>{{tag_group.name}}</h1>
+  {% for tag in site.tags %}
+    {% if tag_group.tags contains tag[0] %}
+      {% assign new_tag = tag[0] | split: ",,," %}
+      {% assign all_tags = all_tags | concat: new_tag %}
+      <div class=tag>
+        <a href="/tag/{{tag[0] | slugify}}">
+          {{tag[0]}}
+        </a>
+      </div>
+    {% endif %}
   {% endfor %}
-</ul>
+{% endfor %}
+
+{% if all_tags.size != site.tags.size  %}
+<h1>Other</h1>
+{% for tag in site.tags %}
+  {% unless all_tags contains tag[0] %}
+    <div class=tag>
+      <a href="/tag/{{tag[0] | slugify}}">
+        {{tag[0]}}
+      </a>
+    </div>
+  {% endunless %}
+{% endfor %}
+{% endif %}

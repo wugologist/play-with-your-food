@@ -9,6 +9,10 @@ defaults:
       permalink: /:categories/:slug
       category: "recipes"
   - scope:
+      path: "tag"
+    values:
+      layout: "tag"
+  - scope:
       path: ""
     values:
       layout: "default"
