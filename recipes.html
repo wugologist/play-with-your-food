@@ -2,30 +2,32 @@
 ---
 {% assign all_tags = "" | split: "" %}
 
+<h1>Recipes by Tag</h1>
+
 {% for tag_group in site.data.tags %}
-  <h1>{{tag_group.name}}</h1>
+  <h2>{{ tag_group.name }}</h2>
   {% for tag in site.tags %}
     {% if tag_group.tags contains tag[0] %}
       {% assign new_tag = tag[0] | split: ",,," %}
       {% assign all_tags = all_tags | concat: new_tag %}
-      <div class=tag>
+      <span class=tag>
         <a href="/tag/{{tag[0] | slugify}}">
           {{tag[0]}}
         </a>
-      </div>
+      </span>
     {% endif %}
   {% endfor %}
 {% endfor %}
 
 {% if all_tags.size != site.tags.size  %}
-<h1>Other</h1>
+<h2>Other</h2>
 {% for tag in site.tags %}
   {% unless all_tags contains tag[0] %}
-    <div class=tag>
+    <span class=tag>
       <a href="/tag/{{tag[0] | slugify}}">
         {{tag[0]}}
       </a>
-    </div>
+    </span>
   {% endunless %}
 {% endfor %}
 {% endif %}

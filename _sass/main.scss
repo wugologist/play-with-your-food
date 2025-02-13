@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
 
-$background-color: #cccddd;
-$text-color: #2f2f2f;
-$text-light: #6f6f6f;
-$table-color: #babddb;
-$link-color: #bbbccc;
+$dark: #4E4F50;
+$light: #e2e1d5;
+$medium: #b9c0c4;
+$medium2: #838b8f;
+$accent: #647C90;
+$highlight: #d35b37;
+
+$radius: 7px;
 
 html {
-  background-color: $background-color;
-  color: $text-color;
+  background-color: $light;
+  color: $dark;
   font-family: Commissioner, sans-serif;
   font-size: 13pt;
   height: 100%
@@ -32,8 +35,6 @@ body {
   font-weight: bold;
   justify-content: center;
   text-decoration: none;
-  flex-grow: 0;
-  flex-shrink: 0;
 }
 
 footer {
@@ -41,8 +42,8 @@ footer {
   flex-grow: 0;
   flex-shrink: 0;
   padding: 7px;
-  background-color: $text-color;
-  color: $background-color;
+  background-color: $accent;
+  color: $light;
   margin-top: 20px;
 }
 
@@ -53,17 +54,21 @@ main {
 }
 
 a {
-  color: $text-color;
+  color: $dark;
   text-decoration: underline dotted;
 }
 
 ul {
-  background-color: $table-color;
+  background-color: $medium;
+}
+
+hr {
+  color: $accent;
 }
 
 nav {
-  background-color: $text-color;
-  color: $background-color;
+  background-color: $accent;
+  color: $light;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -73,7 +78,7 @@ nav {
     text-decoration: none;
     padding: 7px;
     text-align: center;
-    color: $background-color;
+    color: $light;
     font-weight: 500;
   }
 }
@@ -91,17 +96,18 @@ table {
   }
 
   th:nth-child(1), td:nth-child(1) {
-    border-right: 2px solid $text-color;
+    border-right: 2px solid $accent;
   }
 
   tr:nth-child(even) {
-    background-color: $table-color;
+    background-color: $medium;
   }
 }
 
 fieldset {
-  background-color: $table-color;
+  background-color: $medium;
   border-style: hidden;
+  border-radius: $radius;
 
   .checklist-item {
     display: flex;
@@ -110,14 +116,14 @@ fieldset {
   }
 
   .note {
-    color: $text-light;
+    color: $medium2;
     font-style: italic;
   }
 
   input {
     width: 20px;
     height: 20px;
-    accent-color: $text-color;
+    accent-color: $highlight;
   }
   label {
     align-content: center;
@@ -131,9 +137,76 @@ input:checked + label {
 
 .notes {
   padding: 10px;
-  background-color: $table-color;
+  background-color: $medium;
+  border-radius: $radius;
 }
 
 .ingredient-group {
   font-weight: 600;
+}
+
+.tag {
+  background-color: $accent;
+  margin: $radius;
+  padding: 3px;
+  border-radius: 5px;
+  align-content: center;
+
+  a {
+    color: $light;
+    text-decoration: none;
+  }
+}
+
+.button {
+  background-color: $highlight;
+  margin: $radius;
+  padding: 5px;
+  border-radius: 5px;
+  align-content: center;
+  color: $light;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.subheader {
+  color: $medium2;
+  text-decoration: none;
+  margin-top: -15px;
+  font-size: 12pt;
+}
+
+.series-nav {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+  }
+
+  .prev {
+    justify-self: flex-end;
+  }
+
+  .next {
+    align-self: flex-start;
+  }
+}
+
+@media print {
+  header, footer, nav {
+    display: none;
+  }
+
+  p, td, a, fieldset, .note {
+    font-size: 12pt;
+  }
+
+  td {
+    border-bottom: 2px solid $dark;
+  }
+
+  .recipe-subheader {
+    display: none;
+  }
 }

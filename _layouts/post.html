@@ -3,17 +3,42 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<p>
-  {{ page.date | date_to_string }} | <a href=#recipe>Jump to Recipe</a>
-</p>
+<div class="recipe-subheader">
+  <p>{{ page.date | date_to_string }} | <a href=#recipe>Jump to Recipe</a></p>
 
-{% if page.tags %}
-Tags:
+{% if page.tags.size > 0 %}
+  Tags:
   {% for tag in page.tags %}
-    <a href="/tag/{{tag | slugify }}">{{ tag }}</a>
+    <span class="tag">
+      <a href="/tag/{{tag | slugify }}">{{ tag }}</a>
+    </span>
   {% endfor %}
 {% endif %}
+</div>
 
 <hr>
 
 {{ content }}
+
+<hr>
+
+<div class="series-nav">
+  {% if page.previous %} 
+    <a class="prev" rel="prev" href="{{ page.previous.url }}">
+      &larr; {{ page.previous.title }}
+    </a>
+  {% else %}
+    <a class="prev" rel="prev" href="/">
+      &larr; Home
+    </a>
+  {% endif %}
+  {% if page.next %} 
+    <a class="next" rel="next" href="{{ page.next.url }}">
+      {{ page.next.title }} &rarr;
+    </a>
+  {% else %}
+    <a class="prev" rel="prev" href="/">
+      Home &rarr; 
+    </a>
+  {% endif %}
+</div>

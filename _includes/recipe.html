@@ -1,9 +1,9 @@
 {% assign yaml_path = include.path | remove_first: "_posts/" | remove_first: "_drafts/" | remove_first: ".md" %}
 <hr>
 
-<h1 id="recipe">{{include.title}}</h1>
+<h1 id="recipe">{{ include.title }}</h1>
 
-<p>Makes {{site.data.recipes[yaml_path].yield}}</p>
+<div class="subheader">Makes {{ site.data.recipes[yaml_path].yield }}</div>
 
 <h2>Prep List</h2>
 <fieldset>

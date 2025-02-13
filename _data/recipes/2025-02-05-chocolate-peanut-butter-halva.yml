@@ -3,21 +3,21 @@ yield: 20 1-inch pieces
 ingredients:
   - name: smooth natural peanut butter
     quantity: 1 lb.
-    step: 0
+    step: 1
   - name: Diamond Crystal kosher salt
-    step: 0
+    step: 1
     quantity: 1 tsp.
     note: only if peanut butter is unsalted
   - name: granulated sugar
     quantity: 330 g.
-    step: 1
+    step: 2
   - name: water
     quantity: 1/2 c.
-    step: 1
+    step: 2
     note: approximately
   - name: chocolate chips
     quantity: 12 oz.
-    step: 4
+    step: 5
     note: or chopped chocolate
 
 equipment: 
