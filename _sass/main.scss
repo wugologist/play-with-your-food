@@ -48,7 +48,7 @@ footer {
 }
 
 main {
-  max-width: 800px;
+  width: 800px;
   margin: auto;
   flex-grow: 1;
 }
@@ -191,6 +191,17 @@ input:checked + label {
   .next {
     align-self: flex-start;
   }
+}
+
+.header-search {
+  align-items: center;
+  display: flex;
+}
+
+#search-box {
+    height: 23px;
+    font-size: 13pt;
+    background-color: $light;
 }
 
 @media print {

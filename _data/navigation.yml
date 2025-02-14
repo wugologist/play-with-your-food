@@ -2,8 +2,6 @@
   link: /
 - name: Recipes
   link: /recipes
-- name: Search
-  link: /search
 - name: About
   link: /about
 - name: RSS
