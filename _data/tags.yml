@@ -12,6 +12,7 @@
     - vegetarian
     - vegan
     - gluten free
+    - dairy free
 - name: ingredient
   tags:
     - chocolate

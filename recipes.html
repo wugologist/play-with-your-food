@@ -5,7 +5,7 @@
 <h1>Recipes by Tag</h1>
 
 {% for tag_group in site.data.tags %}
-  <h2>{{ tag_group.name }}</h2>
+  <h2>{{ tag_group.name | capitalize }}</h2>
   {% for tag in site.tags %}
     {% if tag_group.tags contains tag[0] %}
       {% assign new_tag = tag[0] | split: ",,," %}
@@ -20,14 +20,14 @@
 {% endfor %}
 
 {% if all_tags.size != site.tags.size  %}
-<h2>Other</h2>
-{% for tag in site.tags %}
-  {% unless all_tags contains tag[0] %}
-    <span class=tag>
-      <a href="/tag/{{tag[0] | slugify}}">
-        {{tag[0]}}
-      </a>
-    </span>
-  {% endunless %}
-{% endfor %}
+  <h2>Other</h2>
+  {% for tag in site.tags %}
+    {% unless all_tags contains tag[0] %}
+      <span class=tag>
+        <a href="/tag/{{tag[0] | slugify}}">
+          {{tag[0]}}
+        </a>
+      </span>
+    {% endunless %}
+  {% endfor %}
 {% endif %}

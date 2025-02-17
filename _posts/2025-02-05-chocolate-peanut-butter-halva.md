@@ -1,5 +1,5 @@
 ---
-tags: [chocolate, dessert, gluten free, vegan, dairy free]
+tags: [chocolate, dessert, gluten free, vegetarian, vegan, dairy free]
 title: Chocolate-Peanut Butter Halva
 excerpt_separator: <!--more-->
 thumbnail: /assets/images/2025-02-05-chocolate-peanut-butter-halva/thumbnail.webp
@@ -7,7 +7,7 @@ thumbnail: /assets/images/2025-02-05-chocolate-peanut-butter-halva/thumbnail.web
 
 It might not look like it, but this originated as an attempt to make a homemade Reese's cup. You might think, "isn't that just peanut butter covered in chocolate?", and you'd be right, in the same way that a baguette is just flour mixed with water. 
 
-The peanut butter center of a Reese's cup is slightly dry and crumbly and much sweeter than plain peanut butter. This made me think of halva, the slightly dry and crumbly candy made from tahini (sesame seed paste) and a sugar syrup[¹](#notes). Halva is actually quite easy to make, especially if you know the basics of candy making, and with a few modifications we can give it a chocolate-peanut butter twist.
+The peanut butter center of a Reese's cup is slightly dry and crumbly and much sweeter than plain peanut butter. This made me think of halva, the slightly dry and crumbly candy made from tahini (sesame seed paste) and a sugar syrup.[¹](#notes) Halva is actually quite easy to make, especially if you know the basics of candy making, and with a few modifications we can give it a chocolate-peanut butter twist.
 
  <!--more-->
 
@@ -17,7 +17,7 @@ Candy making is, at its core, about managing the crystallization of sugar. Pure 
 
 As you no doubt remember from high school chemistry class, the boiling point of water increases with the concentration of dissolved particles. Put another way, if you have your syrup boiling at a specific temperature, you know the concentration of sugar in the water, and therefore you know what the final texture of your candy will be. For halva, we want to cook the syrup to 245°F/118°C; this sugar concentration gives us a final product that's firm and sliceable without being hard or crunchy.
 
-There are two ingredient pitfalls to be aware of here. First, do not attempt to make this using processed peanut butter. The additives in them which keep it emulsified interfere with the sugar crystallization we're so carefully trying to control and will result in a sandy mixture which does not hold together. Instead, look for natural peanut butter which only contains peanuts and possibly salt, the kind where you have to stir the oil back in. Second, check to see if your salt contains anti-caking additives[²](#notes). These are meant to keep the salt from clumping up, but will also result in a crumbly peanut butter mess.
+There are two ingredient pitfalls to be aware of here. First, do not attempt to make this using processed peanut butter. The additives in them which keep it emulsified interfere with the sugar crystallization we're so carefully trying to control and will result in a sandy mixture which does not hold together. Instead, look for natural peanut butter which only contains peanuts and possibly salt, the kind where you have to stir the oil back in. Second, check to see if your salt contains anti-caking additives.[²](#notes) These are meant to keep the salt from clumping up, but will also result in a crumbly peanut butter mess.
 
 ![Boiling sugar syrup](/assets/images/2025-02-05-chocolate-peanut-butter-halva/syrup.webp)
 

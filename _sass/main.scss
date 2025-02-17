@@ -53,6 +53,12 @@ main {
   flex-grow: 1;
 }
 
+h2 {
+  a {
+    text-decoration: none;
+  }
+}
+
 a {
   color: $dark;
   text-decoration: underline dotted;
@@ -170,6 +176,7 @@ input:checked + label {
   text-decoration: none;
   margin-top: -15px;
   font-size: 12pt;
+  margin-bottom: 15px;
 }
 
 .series-nav {
@@ -198,6 +205,22 @@ input:checked + label {
   height: 23px;
   font-size: 13pt;
   background-color: $light;
+}
+
+.search-results {
+  display: flex;
+}
+
+.search-result-tile {
+  width: 350px;
+
+  img {
+    width: 350px;
+  }
+
+  h2 {
+    margin-top: 5px;
+  }
 }
 
 @media print {
