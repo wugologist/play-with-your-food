@@ -37,6 +37,10 @@ body {
   text-decoration: none;
 }
 
+.header:hover {
+  color: $dark;
+}
+
 footer {
   text-align: center;
   flex-grow: 0;
@@ -67,6 +71,11 @@ h2 {
 a {
   color: $dark;
   text-decoration: underline dotted;
+}
+
+a:hover {
+  color: $highlight;
+  text-decoration: none;
 }
 
 hr {
@@ -174,6 +183,10 @@ input:checked + label {
   color: $light;
   text-decoration: none;
   margin: 0px;
+}
+
+.button:hover {
+  color: $dark;
 }
 
 .subheader {

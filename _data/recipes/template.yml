@@ -1,4 +1,6 @@
 yield: 1 serving
+active_time: 5 minutes
+total_time: 10 minutes
 
 ingredients:
   - name: eggs

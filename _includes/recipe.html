@@ -3,7 +3,15 @@
 
 <h1 id="recipe">{{ include.title }}</h1>
 
-<div class="subheader">Makes {{ site.data.recipes[yaml_path].yield }}</div>
+<div class="subheader">
+    Makes {{ site.data.recipes[yaml_path].yield }}
+    {% if site.data.recipes[yaml_path].active_time.size > 0 %}
+    | Active time: {{ site.data.recipes[yaml_path].active_time }} 
+    {% endif %}
+    {% if site.data.recipes[yaml_path].total_time.size > 0 %}
+    | Total time: {{ site.data.recipes[yaml_path].total_time }}
+    {% endif %}
+</div>
 
 <h2>Prep List</h2>
 <fieldset>
