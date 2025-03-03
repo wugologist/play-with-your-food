@@ -1,0 +1,81 @@
+yield: 6 to 8 servings
+active_time: 1 hour (30 minutes without pork)
+total_time: 2.5 hours (1 hour without pork)
+
+ingredient_groups:
+  For pork belly (optional):
+    - name: neutral oil
+      quantity: 1 Tbsp
+      step: 1
+    - name: kosher salt
+      step: 1
+    - name: pork belly
+      quantity: 2.2 lbs (1 kg)
+      step: 1
+      prep: cut into 1.5" cubes
+  For curry:
+    - name: coconut milk
+      quantity: 2 cans (13.5 oz/400 ml each)
+      step: 2
+      note: do not shake
+    - name: red curry paste
+      quantity: 1/2 cup (150 g)
+      step: 2
+    - name: water
+      quantity: 27 oz (800 ml)
+      step: 3
+    - name: makrut lime leaves
+      quantity: 5
+      step: 3
+    - name: cilantro stems
+      quantity: small handful (about 20)
+      prep: tied into a bundle with kitchen twine
+      step: 3
+    - name: fish sauce
+      quantity: 1 Tbsp (15 ml)
+      step: 3
+    - name: dark brown sugar
+      quantity: 2 Tbsp (27 g)
+      step: 3
+    - name: sweet potatoes
+      quantity: 3 lb (1.4 kg, about 3 large)
+      step: 5
+      prep: peeled and cut into 1" cubes
+    - name: lime juice
+      quantity: 2 Tbsp (30 ml)
+      step: 6
+      note: from 1 lime
+  To serve:
+    - name: <a href="/recipes/fried-shallots">fried shallots</a>
+      step: 7
+    - name: roasted peanuts
+      step: 7
+    - name: bird's eye chilies
+      step: 7
+      prep: thinly sliced
+      note: optional
+    - name: cilantro leaves
+      step: 7
+      prep: roughly chopped
+    - name: scallions
+      step: 7
+      prep: thinly sliced
+    - name: Thai basil
+      step: 7
+      prep: thinly sliced
+    - name: lime wedges
+      step: 7
+
+equipment: 
+  - dutch oven
+  - spider strainer
+  - immersion blender
+
+steps:
+  - In a Dutch oven, heat oil over medium-high heat until shimmering. Season pork belly with salt and brown on all sides, about 20 minutes. Remove from Dutch oven and pour off fat.
+  - Open cans of coconut milk without shaking. Scoop off the cream that has risen to the top of one of the cans and heat in Dutch oven until the fat separates out from the liquid (if there is no cream separated, simply heat a tablespoon of coconut oil, neutral oil, or rendered pork fat until shimmering). Add curry paste and cook, stirring often, until aromatic and fat separates out, about three minutes.
+  - Add rest of coconut milk, reserving a couple tablespoons for garnish, plus water, makrut lime leaves, cilantro stem bundle, fish sauce, brown sugar, and pork belly. Bring to a boil, reduce to a simmer, cover, and cook until pork is tender, about 90 minutes.
+  - While pork cooks, prepare fried shallots.
+  - Remove solids from the Dutch oven using a spider or tongs (make sure to get everything to avoid clogging the immersion blender). Discard makrut lime leaves and cilantro stems. Add sweet potatoes to Dutch oven, cover, return to a simmer, and cook until completely tender, about 30 minutes. 
+  - Using an immersion blender, puree curry until completely smooth. Return pork belly to Dutch oven to warm. Stir in lime juice, taste, and add more fish sauce or brown sugar if desired.
+  - To serve, ladle curry into a bowl along with a few pieces of pork belly. Drizzle some reserved coconut milk over the top and garnish with fried shallots, peanuts, chilies, and herbs. Serve with lime wedges and extra toppings.

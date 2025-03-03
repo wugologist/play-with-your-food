@@ -1,18 +1,21 @@
 # run _scripts/generate_tag_pages.rb whenever adding a new tag
 
-- name: meal
+- name: meal or course
   tags:
     - breakfast
     - lunch
     - dinner
     - dessert
     - main course
+    - soups and stews
 - name: diet
   tags: 
-    - vegetarian
-    - vegan
-    - gluten free
     - dairy free
+    - gluten free
+    - vegan
+    - vegetarian
 - name: ingredient
   tags:
     - chocolate
+    - pork
+    - sweet potato

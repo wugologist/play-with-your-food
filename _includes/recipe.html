@@ -4,12 +4,20 @@
 <h1 id="recipe">{{ include.title }}</h1>
 
 <div class="subheader">
-    Makes {{ site.data.recipes[yaml_path].yield }}
-    {% if site.data.recipes[yaml_path].active_time.size > 0 %}
-    | Active time: {{ site.data.recipes[yaml_path].active_time }} 
+    {% if site.data.recipes[yaml_path].yield.size > 0 %}
+        Makes {{ site.data.recipes[yaml_path].yield }} |
     {% endif %}
+
+    {% if site.data.recipes[yaml_path].active_time.size > 0 %}
+        Active time: {{ site.data.recipes[yaml_path].active_time }} |
+    {% endif %}
+
     {% if site.data.recipes[yaml_path].total_time.size > 0 %}
-    | Total time: {{ site.data.recipes[yaml_path].total_time }}
+        Total time: {{ site.data.recipes[yaml_path].total_time }}
+    {% endif %}
+
+    {% if site.data.recipes[yaml_path].source.size > 0 %}
+        | Source: <a href="{{ site.data.recipes[yaml_path].source_url }}">{{ site.data.recipes[yaml_path].source }}</a>
     {% endif %}
 </div>
 

@@ -7,7 +7,7 @@ FileUtils.mkdir_p "tag"
 
 tags_file.each do |tag_group|
     tag_group["tags"].each do |tag|
-        tagname = tag.sub(" ", "-")
+        tagname = tag.gsub(" ", "-")
         filename = "tag/#{tagname}.md"
         File.open(filename, 'w') do |file|
             file.write("---\ntag_name: #{tag}\n---\n")
