@@ -2,9 +2,9 @@
 
 $dark: #433A3F;
 $light: #FBFBFF;
-$medium: hsl(169, 11%, 75%);
+$medium: #b8c6c4;
 $medium2: #657b7a;
-$accent: #657bbd;
+$accent: #AFBBF2;
 $highlight: #d35b37;
 
 $radius: 7px;
@@ -113,6 +113,10 @@ table {
 
   th:nth-child(1), td:nth-child(1) {
     border-right: 2px solid $dark;
+
+    p::first-letter {
+      text-transform: capitalize;
+    }
   }
 
   tr:nth-child(even) {
@@ -129,6 +133,10 @@ fieldset {
     display: flex;
     align-items: center;
     padding: 3px;
+
+    ::first-letter {
+      text-transform: capitalize;
+    }
   }
 
   .note {
@@ -171,6 +179,10 @@ input:checked + label {
   a {
     color: $light;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: $highlight;
   }
 }
 

@@ -7,13 +7,13 @@
   
         for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
           var item = store[results[i].ref];
-          appendString += `<li><a href=${item.url}><h3>${item.title}</h3></a>`;
-          appendString += `<p>${item.content.split('\n')[0]}</p></li>`;
+          appendString += `<div class="search-result"><img src=${item.thumbnail}><a href=${item.url}><h3>${item.title}</h3></a>`;
+          appendString += `<p>${item.content.split('\n')[0]}</p></div>`;
         }
   
         searchResults.innerHTML = appendString;
       } else {
-        searchResults.innerHTML = '<li>No results found</li>';
+        searchResults.innerHTML = '<div>No results found</div>';
       }
     }
   
