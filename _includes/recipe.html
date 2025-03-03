@@ -4,7 +4,7 @@
 <h1 id="recipe">{{ include.title }}</h1>
 
 <div class="subheader">
-    {% if site.data.recipes[yaml_path].yield.size > 0 %}
+    {% if site.data.recipes[yaml_path].yield.size > 0 %}    
         Makes {{ site.data.recipes[yaml_path].yield }} |
     {% endif %}
 
@@ -17,7 +17,7 @@
     {% endif %}
 
     {% if site.data.recipes[yaml_path].source.size > 0 %}
-        | Source: <a href="{{ site.data.recipes[yaml_path].source_url }}">{{ site.data.recipes[yaml_path].source }}</a>
+        | Source: <a target="_blank" href="{{ site.data.recipes[yaml_path].source_url }}">{{ site.data.recipes[yaml_path].source }}</a>
     {% endif %}
 </div>
 

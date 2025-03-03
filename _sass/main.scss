@@ -4,7 +4,7 @@ $dark: #433A3F;
 $light: #FBFBFF;
 $medium: #b8c6c4;
 $medium2: #657b7a;
-$accent: #AFBBF2;
+$accent: #032b43;
 $highlight: #d35b37;
 
 $radius: 7px;
@@ -159,6 +159,10 @@ input:checked + label {
   text-decoration: line-through;
 }
 
+.post {
+  margin-bottom: 50px;
+}
+
 .notes {
   padding: 10px;
   background-color: $medium;
@@ -181,9 +185,10 @@ input:checked + label {
     text-decoration: none;
   }
 
-  a:hover {
-    color: $highlight;
-  }
+}
+
+.tag:hover {
+  background-color: $highlight;
 }
 
 .button {
@@ -239,11 +244,12 @@ input:checked + label {
 
 .search-results {
   display: flex;
+  flex-wrap: wrap
 }
 
 .search-result-tile {
   width: 350px;
-
+  padding: 25px;
   img {
     width: 350px;
   }
@@ -254,7 +260,7 @@ input:checked + label {
 }
 
 @media print {
-  header, footer, nav {
+  header, footer, nav, img {
     display: none;
   }
 
@@ -266,7 +272,7 @@ input:checked + label {
     border-bottom: 2px solid $dark;
   }
 
-  .recipe-subheader {
+  .recipe-subheader, .series-nav {
     display: none;
   }
 }

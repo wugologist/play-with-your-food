@@ -4,13 +4,15 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <div class="recipe-subheader">
-  <p>{{ page.date | date_to_string }} | <a href=#recipe>Jump to Recipe</a></p>
+  <p>
+    {{ page.date | date_to_string }} | <a href=#recipe>Jump to Recipe</a>
+  </p>
 
-{% if page.tags.size > 0 %}
+{% if page.tags.size > 0 -%}
   Tags:
-  {% for tag in page.tags %}
+  {%- for tag in page.tags -%}
     <span class="tag">
-      <a href="/tag/{{tag | slugify }}">{{ tag }}</a>
+      <a href="/tag/{{ tag | slugify }}">{{ tag }}</a>
     </span>
   {% endfor %}
 {% endif %}
