@@ -1,6 +1,6 @@
 ---
 tags: [dinner, main course, gluten free]
-thumbnail: /assets/images/2025-02-08-pulao-stuffed-squash/thumbnail.webp
+thumbnail: /assets/images/2025-02-25-pulao-stuffed-squash/thumbnail.webp
 ---
 
 A normal person might dine at a restaurant and have a couple dishes they especially enjoyed. If they were interested in Afghan food, they might go to [The Helmand](https://helmandrestaurant.com/) in Cambridge and be impressed by kaddo bourani, a dish of sweet and savory baked pumpkin, and palou kabuli, a heap of basmati rice studded with julienned carrots, raisins, and chunks of lamb. If a normal person were of a culinary persuasion, they might later search for recipes online and try to recreate those dishes. If that person were me, though, and not normal, they might decide to experiment and combine the two into something new. The results aren't normal either, but they are delicious.
@@ -9,7 +9,7 @@ A normal person might dine at a restaurant and have a couple dishes they especia
 
 When considering how to combine these two dishes, my mind went to mahshi,[¹](#notes) a family of Middle Eastern dishes consisting of vegetables stuffed with rice, tomato sauce, herbs, and ground meat and simmered in broth. You can apply this treatment to a lot of vegetables--zucchini, tomatoes, peppers, and grape leaves, to name a few--so I thought to adapt the dishes from The Helmand into a sort of baked pumpkin mahshi. Just take the ingredients for palou kabuli, swap the lamb chunks for the tomato and ground beef sauce from the kaddo, stuff it in a squash--easier to manage than a full pumpkin--and bake. Seemed easy enough, so I tried that, and it was...fine? It was basically a sound idea, but everything was a little bland and it took forever to cook through. Each element would need to be iterated on to make this a finished dish.
 
-![Squash](/assets/images/2025-02-08-pulao-stuffed-squash/squash.webp)
+![Squash](/assets/images/2025-02-25-pulao-stuffed-squash/squash.webp)
 
 ## Inside Knowledge
 First, let's consider the filling. Your basic mahshi filling is rice (usually medium grain), tomato puree or sauce, ground beef or lamb, and various herbs, spices, and aromatics. You need enough liquid from the tomato sauce to cook the rice, and the meat is added raw to the filling, which helps hold the whole thing together in an almost meatball-like way.
@@ -20,14 +20,14 @@ As far as other ingredients go, we're sticking with the carrots and raisins from
 
 With all that considered, actually preparing the filling is easy. Start by browning the meat, then add onion, garlic, and carrots and saute. Add in the spices to bloom for a few seconds, then add crushed tomatoes, raisins, pistachios, and drained rice. Bring it to a simmer, and you're ready to go.
 
-![Filling](/assets/images/2025-02-08-pulao-stuffed-squash/filling.webp)
+![Filling](/assets/images/2025-02-25-pulao-stuffed-squash/filling.webp)
 
 ## Squash and Merge
 It would probably be fun to stuff a big pumpkin, but for ease of access we're using acorn squash instead. To prepare them, first cut off a small slice from the bottom of each so they can sit upright, then cut the tops off and scoop out the insides. The first iteration of this dish just had the rice scooped into the squash and baked, but this resulted in flavorless squash flesh. It would be possible to salt the inside to help fix this, but the grains of salt don't stick to the outside by themselves. To fix this, we're using butter.[²](#notes) Just melting some butter and stirring in some honey and salt lets us season the squash, adds some sweetness reminiscent of the original kaddo bourani, and enhances the color of the finished dish.
 
 To fill the prepared squash, just make sure your filling is hot--the dense squash means that it takes a while for heat to penetrate to the center, so starting with a hot filling helps things cook more quickly and evenly--and leave about an inch of room in each squash to allow the rice to expand as it cooks. Place the tops of the squash back on and bake for one and a half to two hours, or until the squash is tender and the rice is cooked through.
 
-![Cooked](/assets/images/2025-02-08-pulao-stuffed-squash/cooked.webp)
+![Cooked](/assets/images/2025-02-25-pulao-stuffed-squash/cooked.webp)
 
 ## Play Around
 
