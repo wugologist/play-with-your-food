@@ -1,7 +1,7 @@
 ---
 tags: [gluten free, vegan, vegetarian, dairy free]
 title: "Component: Fried Shallots"
-thumbnail: /assets/images/2025-03-02-fried-shallots/thumbnail.webp
+image: /assets/images/2025-03-02-fried-shallots/thumbnail.webp
 ---
 
 There are no quantities given for this recipe, because you can never make enough fried shallots. If I made a claim like "makes 1 cup", you would leave angry comments about how you only got half a cup at the end.[¹](#notes) This isn't because the recipe is flawed; it's because when you make fried shallots right, you'll eat them like chips before they can make their way into the final recipe.

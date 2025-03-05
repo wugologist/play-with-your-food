@@ -1,6 +1,8 @@
 title: Play With Your Food
 
+description: Feed your inner child
 author: Michael Wong
+url: https://playwithyour.food
 
 defaults:
   - scope:
@@ -26,3 +28,4 @@ plugins:
 
 feed:
   excerpt_only: true
+  icon: /assets/images/favicon.png
