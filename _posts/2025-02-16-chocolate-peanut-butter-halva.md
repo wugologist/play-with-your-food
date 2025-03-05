@@ -2,7 +2,7 @@
 tags: [chocolate, dessert, gluten free, vegetarian, vegan, dairy free]
 title: Chocolate-Peanut Butter Halva
 excerpt_separator: <!--more-->
-image: /assets/images/2025-02-05-chocolate-peanut-butter-halva/thumbnail.webp
+image: /assets/images/2025-02-16-chocolate-peanut-butter-halva/thumbnail.webp
 ---
 
 It might not look like it, but this originated as an attempt to make a homemade Reese's cup. You might think, "isn't that just peanut butter covered in chocolate?", and you'd be right, in the same way that a baguette is just flour mixed with water. 
@@ -19,7 +19,7 @@ As you no doubt remember from high school chemistry class, the boiling point of 
 
 There are two ingredient pitfalls to be aware of here. First, do not attempt to make this using processed peanut butter. The additives in them which keep it emulsified interfere with the sugar crystallization we're so carefully trying to control and will result in a sandy mixture which does not hold together. Instead, look for natural peanut butter which only contains peanuts and possibly salt, the kind where you have to stir the oil back in. Second, check to see if your salt contains anti-caking additives.[²](#notes) These are meant to keep the salt from clumping up, but will also result in a crumbly peanut butter mess.
 
-![Boiling sugar syrup](/assets/images/2025-02-05-chocolate-peanut-butter-halva/syrup.webp)
+![Boiling sugar syrup](/assets/images/2025-02-16-chocolate-peanut-butter-halva/syrup.webp)
 
 ## How to Halva
 
@@ -27,11 +27,11 @@ Now that you understand the fundamentals of candy science, actually making the h
 
 Once the syrup reaches temperature, pour it over the peanut butter. Stir the mixture with a heatproof spatula or wooden spoon to incorporate it as it cools in order to develop the right texture. There's a balancing act here: agitating the mixture by stirring encourages crystallization, but it's possible to overmix it, which results in a grainy, sandy result. At first, the mixture will be thin, but as it cools it'll thicken to the consistency of, well, peanut butter, and soon after that it'll begin to form a dough-like mass and pull away from the sides of the bowl. You need to work quickly here, before the halva sets: scrape the mixture into a 9"x5" loaf pan that you've lined with parchment paper. Fold the parchment over the top of the halva, and use the bottom of a measuring cup or something similarly flat to press the mixture flat. Press firmly to compact the halva, and try to get it into the corners of the pan before it cools too much to press further.
 
-![The final texture of the halva mixture](/assets/images/2025-02-05-chocolate-peanut-butter-halva/mixture.webp)
+![The final texture of the halva mixture](/assets/images/2025-02-16-chocolate-peanut-butter-halva/mixture.webp)
 
 After the halva cools for about half an hour, it'll have set up enough to slice--try too soon and it'll fall apart under the knife. Pull the parchment paper sling up to extract the halva from the pan, transfer to a cutting board, and cut the slab into roughly one inch pieces. You probably won't get many perfect cubes, but that's fine. The really ragged ones are for you to snack on; no one has to know.
 
-![Halva cubes](/assets/images/2025-02-05-chocolate-peanut-butter-halva/cut.webp)
+![Halva cubes](/assets/images/2025-02-16-chocolate-peanut-butter-halva/cut.webp)
 
 ## You Got Your Peanut Butter In My Chocolate
 
@@ -39,7 +39,7 @@ From here, finishing the halva is easy. Set a heatproof bowl over a pot of simme
 
 As a bonus, you can melt an additional handful of chocolate chips and stir in all the crumbs and edges left over from slicing the halva. Scrape this mixture onto some parchment, chill it until firm, and break it up, and you've got yourself an extra treat. Don't tell anyone about these either. You deserve it.
 
-![The halva cubes covered in melted chocolate](/assets/images/2025-02-05-chocolate-peanut-butter-halva/coated.webp)
+![The halva cubes covered in melted chocolate](/assets/images/2025-02-16-chocolate-peanut-butter-halva/coated.webp)
 
 ## Play Around
 - You can replace the peanut butter with another type of nut or seed butter, including, obviously, tahini. I've used almond butter, but anything else should work, as long as it doesn't contain anything besides nuts and salt (added sugar won't ruin the dish, but it's sweet enough as is). Sunflower butter would also likely work here, if allergies are a concern--sunflower halva is popular in post-Soviet countries.
