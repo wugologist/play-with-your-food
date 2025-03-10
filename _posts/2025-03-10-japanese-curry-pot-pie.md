@@ -1,7 +1,7 @@
 ---
 tags: []
 title: Japanese Curry Pot Pie with Miso-Cheddar Biscuits
-image: /assets/images/2025-03-07-japanese-curry/thumbnail.webp
+image: /assets/images/2025-03-10-japanese-curry/thumbnail.webp
 excerpt_separator: <!--more-->
 ---
 
@@ -21,7 +21,7 @@ The basic idea here is to use Japanese curry as the filling for a chicken pot pi
 
 Biscuit dough also lends itself well to adaptation, with experimentation as easy as stirring in different flavors[¹](#notes), something that can't be said about pie dough. For this recipe, we start with a basic buttermilk drop biscuit dough, but mash miso paste into the buttermilk for a savory undertone, and stir in scallions and cheddar cheese (believe it or not, a fairly common addition to Japanese curry). 
 
-![Biscuit dough](/assets/images/2025-03-07-japanese-curry/dough.webp)
+![Biscuit dough](/assets/images/2025-03-10-japanese-curry/dough.webp)
 
 ## Curry Up
 
@@ -29,15 +29,15 @@ For the filling of our pot pie we're using a pretty standard Japanese curry. If 
 
 To make the curry, start by browning some chicken thighs. We're using dark meat here since it stands up better to the two-part cooking process, but white meat would still be fine if that's what you have. Once the meat is browned, take it out and saute onions and ginger, then add potatoes and carrots, along with half a grated apple, which gives some sweet fruit notes to the dish, along with a bit of acidity if you use something like a Granny Smith. You could also chop the apple if you want some more distinct bits of sweetness, or if you're using a softer variety that'll dissolve into the sauce on its own.
 
-![Sauteed vegetables](/assets/images/2025-03-07-japanese-curry/vegetables.webp)
+![Sauteed vegetables](/assets/images/2025-03-10-japanese-curry/vegetables.webp)
 
 Once the vegetables are beginning to soften slightly, add back the meat and add some chicken stock along with a bit of dashi powder. Dashi powder gives a bit of extra savoriness to the dish as well as a vaguely Japanese essence, but not to such an extent that you'll be able to pick it out. If you don't have any one hand, it's fine to leave it out; you just might need an extra pinch of salt. Once the liquid is simmering, stir in the curry roux blocks. You want to be thorough when you do this; biting into a bit of undissolved roux is not something I'd recommend. To incorporate it easily, you can use a ladle to scoop out some liquid and drop in a square or two of roux. Stir the liquid in the ladle until the roux dissolves, then stir it back into the rest of the liquid and repeat with the remaining roux. Once all the roux is added, return the skillet to a simmer, stir in some frozen peas, and remove from the heat.
 
-![Adding roux](/assets/images/2025-03-07-japanese-curry/roux.webp)
+![Adding roux](/assets/images/2025-03-10-japanese-curry/roux.webp)
 
 To finish, scoop roughly 2-tablespoon blobs of biscuit dough around the surface of the curry, set the pan on top of a tray to catch the inevitable drips from the bubbling curry, and bake until the biscuits are brown on top and the whole dish is bubbling hot. Once it's done baking, be sure to let it cool for at least 15 minutes before serving--before then, not only will you burn your mouth, but the biscuits might be wet and unset where they touch the liquid. Once it's rested, though, prepare yourself for the greatest way to enjoy Japanese curry since white rice.
 
-![Topping the curry](/assets/images/2025-03-07-japanese-curry/topping.webp)
+![Topping the curry](/assets/images/2025-03-10-japanese-curry/topping.webp)
 
 ## Play Around
 - You can give the pot pie treatment to just about any thick stew. Just make sure that, before topping and baking, everything in the stew is at a point where it'll finish cooking during the half hour in the oven.
