@@ -1,5 +1,5 @@
 yield: 6 servings
-active_time: 30 minutes
+active_time: 60 minutes
 total_time: 90 minutes
 
 ingredient_groups:
@@ -8,94 +8,92 @@ ingredient_groups:
       quantity: 1 Tbsp (15 ml)
       step: 1
     - name: boneless skinless chicken thighs
-      quantity: 6
+      quantity: 4
       step: 1
     - name: freshly ground black pepper
       step: 1
-    - name: onion
+    - name: yellow onion
       quantity: 1 large
       prep: diced
       step: 2
-    - name: carrot
-      quantity: 3 medium
-      prep: diced
-      step: 2
-    - name: Yukon gold potatoes
-      quantity: 1 lb (450 g)
-      prep: cut into 1-inch pieces
-      step: 2
     - name: ginger
-      quantity: 2 inches
+      quantity: 1 1/2 inches (20 g)
       prep: finely minced or grated
-      step: 2
-    - name: red bell pepper
-      quantity: 1
-      prep: diced
       step: 2
     - name: apple
       quantity: 1/2
       prep: grated or minced
       step: 2
+    - name: carrots
+      quantity: 3 medium
+      prep: cut into 1-inch pieces
+      step: 2
+    - name: Yukon gold potatoes
+      quantity: 12 oz (340 g)
+      prep: cut into 1-inch pieces
+      step: 2
     - name: low-sodium chicken stock
-      quantity: 1 quart (900 ml)
+      quantity: 3 cups (700 ml)
       step: 3
     - name: instant dashi powder
-      quantity: 2 tsp
+      quantity: 1 tsp
       step: 3
+      note: optional
     - name: curry roux blocks
-      quantity: 1 package
+      quantity: 1/2 package (4 oz, 115 g)
       step: 3
     - name: frozen peas
-      quantity: 1 cup
+      quantity: 1 cup (4 1/4 oz, 120g)
       step: 3
   For biscuit topping:
     - name: all purpose flour
-      quantity: 13.5 oz (250 g)
+      quantity: 9 oz (250 g)
       step: 4
     - name: granulated sugar
-      quantity: 1.5 oz (45 g)
+      quantity: 1 oz (30 g)
       step: 4
     - name: baking powder
-      quantity: 1.5 Tbsp
+      quantity: 1 Tbsp
       step: 4
     - name: baking soda
-      quantity: 3/4 tsp
+      quantity: 1/2 tsp
       step: 4
     - name: white miso paste
-      quantity: 1/3 cup (90 g)
+      quantity: 1/4 cup (75 g)
       step: 5
     - name: buttermilk
-      quantity: 12 oz (340 g)
+      quantity: 8 oz (225 g)
       prep: straight from fridge
       step: 5
     - name: butter
-      quantity: 6 oz (6 Tbsp)
-      prep: frozen
-      note: (or straight from fridge)
+      quantity: 4 Tbsp (2 oz, 60 g)
+      prep: cold
+      note: can use frozen
       step: 6
     - name: cheddar cheese
-      quantity: 4 oz (115 g)
-      prep: finely shredded
+      quantity: 3 oz (85 g)
+      prep: shredded
       step: 6
     - name: scallions
-      quantity: 8
+      quantity: 4
       prep: thinly sliced
       step: 6
 
 equipment: 
-  - box grater
+  - sheet pan
   - 12-inch cast iron skillet
+  - box grater
 
 steps:
-  - Preheat oven to 400°F/200°C. In a 12-inch cast iron skillet, heat oil over medium-high heat until shimmering. Season chicken thighs with pepper and brown on both sides, working in batches if needed. Remove chicken to a plate or tray.
-  - Add onion and sweat until translucent. Add ginger, apple, carrots, bell pepper, and potatoes and cook until vegetables are slightly softened, about 5 minutes.
+  - Preheat oven to 400°F/200°C and line a sheet pan with foil or parchment paper. In a 12-inch cast iron skillet, heat oil over medium-high heat until shimmering. Season chicken thighs with pepper and brown on both sides. Remove chicken to a plate or tray.
+  - Reduce heat to medium, add onion, and sweat until translucent. Add ginger and cook for 30 seconds, until fragrant. Add apple, carrots, and potatoes and cook until vegetables are slightly softened, about 5 minutes.
   - Add stock and dashi powder and bring to a simmer. Cut browned chicken thighs into 1-inch pieces and add them back to the skillet along with any accumulated juices. Scoop some liquid into a ladle or heatproof measuring cup and add one or two curry roux cubes. Mix with a spoon or chopsticks until the block is completely dissolved, then stir it back into the skillet. Repeat with remaining cubes, taste and adjust seasoning, then stir in peas and remove the skillet from the heat.
   - To make the biscuit topping, measure flour, sugar, baking powder, and baking soda into a medium bowl and whisk to combine. 
-  - Measure miso into a small bowl, then stir in buttermilk a few tablespoons at a time to ensure the miso dissolves with no lumps.
-  - Using a box grater, grate butter directly into flour mixture. Use a rubber spatula to separate butter shreds and incorporate into flour. Add grated cheese and scallions and mix to combine. Add buttermilk mixture to flour mixture and stir with spatula to form a soft dough. 
-  - Using a 1/4 cup measure or pair of spoons, scoop the dough into about 12 portions on top of the curry. Set skillet on top of a foil- or parchment-lined baking sheet to catch any drips, and bake for 30 minutes, until biscuits are golden brown and filling is bubbling hot. Let rest for 30 minutes before serving.
+  - Measure miso into a small bowl, then whisk in buttermilk a few tablespoons at a time to ensure the miso dissolves with no lumps.
+  - Using a box grater, grate butter directly into flour mixture. Use a flexible spatula to separate butter shreds and incorporate into flour. Add grated cheese and scallions and mix to combine. Add buttermilk mixture to flour mixture and stir with spatula to form a soft dough. 
+  - Using a 1/4 cup measure or pair of spoons, scoop the dough into about 12 portions on top of the curry. Set skillet on top of prepared baking sheet to catch any drips and bake for 30 minutes, until biscuits are golden brown and filling is bubbling hot. Let rest for 15 minutes before serving.
 
 notes:
-  - If you don't have a 12-inch cast iron skillet, you can begin the curry on the stove, then transfer to a 9"x13" baking dish before topping with dough and baking.
-  - To serve the curry without the topping, follow recipe through step 3, reserving peas, then continue simmering for 5-10 minutes, stirring frequently, until vegetables are soft and curry is thick. Stir in peas and cook just until heated through, then serve with steamed rice.
+  - If you don't have a 12-inch cast iron skillet, you can begin the curry on the stove, then transfer to a 9"x13" baking dish or multiple smaller vessels before topping with dough and baking.
+  - To serve the curry without the topping, follow recipe through step 3, reserving peas, then continue simmering for 5-10 minutes, stirring frequently, until vegetables are soft and curry is thickened. Stir in peas and cook just until heated through, then serve with steamed rice.
   - To bake the biscuits on their own, scoop roughly 1/4 cup mounds of dough onto a parchment-lined baking sheet and bake at 400°F/200°C for 15-20 minutes, until golden brown on top.
