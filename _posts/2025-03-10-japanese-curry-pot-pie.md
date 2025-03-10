@@ -2,6 +2,7 @@
 tags: [main course, soups and stews, chicken]
 title: Japanese Curry Pot Pie with Miso-Cheddar Biscuits
 image: /assets/images/2025-03-10-japanese-curry/thumbnail.webp
+description: The best thing to happen to Japanese curry since white rice.
 excerpt_separator: <!--more-->
 ---
 

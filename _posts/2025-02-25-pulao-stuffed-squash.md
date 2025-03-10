@@ -1,6 +1,7 @@
 ---
 tags: [dinner, main course, gluten free]
 image: /assets/images/2025-02-25-pulao-stuffed-squash/thumbnail.webp
+description: Sweet, tender roasted squash filled with an Afghan-ish pilaf.
 ---
 
 A normal person might dine at a restaurant and have a couple dishes they especially enjoyed. If they were interested in Afghan food, they might go to [The Helmand](https://helmandrestaurant.com/) in Cambridge and be impressed by kaddo bourani, a dish of sweet and savory baked pumpkin, and palou kabuli, a heap of basmati rice studded with julienned carrots, raisins, and chunks of lamb. If a normal person were of a culinary persuasion, they might later search for recipes online and try to recreate those dishes. If that person were me, though, and not normal, they might decide to experiment and combine the two into something new. The results aren't normal either, but they are delicious.

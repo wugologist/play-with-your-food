@@ -1,6 +1,7 @@
 ---
 tags: [soups and stews, sweet potato, pork, vegetarian]
 image: /assets/images/2025-03-02-sweet-potato-red-curry/thumbnail.webp
+description: A smooth, spicy puree with loads of fresh toppings.
 ---
 
 I'm not generally one to keep many premade sauces or spice mixes around, but I make an exception for Thai curry paste. As long as you have a can of paste, some coconut milk, and almost any kind of vegetable or meat, you're a quick simmer away from dinner. This version takes things in a slightly pretentious, definitely nontraditional direction: we're using sweet potatoes as our vegetable, optionally braising some pork belly in it, pureeing it until smooth, and topping it with a heap of garnishes.

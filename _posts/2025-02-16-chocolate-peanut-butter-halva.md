@@ -3,6 +3,7 @@ tags: [chocolate, dessert, gluten free, vegetarian, vegan, dairy free]
 title: Chocolate-Peanut Butter Halva
 excerpt_separator: <!--more-->
 image: /assets/images/2025-02-16-chocolate-peanut-butter-halva/thumbnail.webp
+description: "Halva and peanut butter: two great tastes that taste great together"
 ---
 
 It might not look like it, but this originated as an attempt to make a homemade Reese's cup. You might think, "isn't that just peanut butter covered in chocolate?", and you'd be right, in the same way that a baguette is just flour mixed with water. 
