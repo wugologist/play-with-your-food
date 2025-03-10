@@ -16,6 +16,7 @@
     - vegetarian
 - name: ingredient
   tags:
+    - chicken
     - chocolate
     - pork
     - sweet potato
