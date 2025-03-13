@@ -47,6 +47,6 @@ To finish, scoop roughly 2-tablespoon blobs of biscuit dough around the surface 
 
 ## Notes
 
-- One test version had a tablespoon of furikake mixed in rather than cheese. This was, shall we say, unsubtle. If you like the flavor (savory, salty, and more than a little fishy), try baking a batch of biscuits that way, though I wouldn't recommend topping a pot pie with it.
+1. One test version had a tablespoon of furikake mixed in rather than cheese. This was, shall we say, unsubtle. If you like the flavor (savory, salty, and more than a little fishy), try baking a batch of biscuits that way, though I wouldn't recommend topping a pot pie with it.
 
 {% include recipe.html path=page.path title=page.title %}
