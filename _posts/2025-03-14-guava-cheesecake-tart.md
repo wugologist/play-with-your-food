@@ -1,7 +1,7 @@
 ---
-tags: [baking, dessert]
+tags: [baking, dessert, vegetarian]
 image: /assets/images/2025-03-14-guava-cheesecake-tart/thumbnail.webp
-description:
+description: Creamy guava custard in a flaky crust.
 date: 2025-03-14 02:00:00
 ---
 
