@@ -34,11 +34,16 @@ body {
   font-size: 36pt;
   font-weight: bold;
   justify-content: center;
-  text-decoration: none;
-}
+  margin-bottom: 5px;
 
-.header:hover {
-  color: $dark;
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $dark;
+  }
+
 }
 
 footer {
@@ -203,7 +208,7 @@ input:checked + label {
 }
 
 .button:hover {
-  color: $dark;
+  color: $accent;
 }
 
 .subheader {
