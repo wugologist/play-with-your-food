@@ -34,14 +34,15 @@ ingredients:
   - name: eggs
     quantity: 2
     step: 3
-  - name: tart dough
+  - name: <a href="/recipes/tart-dough">tart dough</a>
+    quantity: 1 recipe
     step: 4
     prep: par-baked
 
 equipment: 
   - small saucepan
   - stand mixer, hand mixer, or whisk
-  - 9- or 9 1/2-inch tart pan
+  - 9- or 9 1/2-inch removable-bottom tart pan
   - sheet tray
 
 steps:
