@@ -1,18 +1,50 @@
 ---
-tags: []
+title: Shrimp Scampi and Grits, Plus a Lesson in Time Management
+tags: [seafood, dinner, main course, gluten free]
 image:
 description:
+use_mermaid: true
 ---
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Facilisis vehicula mus pellentesque interdum nam nunc? Sollicitudin porttitor morbi, fames mauris etiam urna pellentesque sociosqu. Vulputate ridiculus aptent condimentum neque enim auctor auctor. Nullam ante non turpis parturient phasellus. Placerat proin nascetur imperdiet suscipit eu nam leo ad. Dis fusce ipsum fusce massa parturient consequat, urna ligula. Morbi semper libero libero vehicula facilisi curabitur.
+<div class="mermaid">
+gantt
+    title The Long Way
+    dateFormat  H:m
+    axisFormat %H:%M
+    todayMarker off
 
-Nam dictum dapibus tempus elementum volutpat. Vulputate erat a est phasellus eros molestie. Auctor adipiscing nascetur semper platea tellus rhoncus torquent. Atempor ultricies magna lectus primis ornare. Nascetur justo facilisis pretium; diam a ad. Conubia eget eros id adipiscing sed tortor et cursus. Eros morbi lobortis dictumst condimentum; erat a maximus. Lorem molestie maximus mus efficitur suspendisse.
+    section Shrimp
+    Mise en Place       :shrimp1, 0:0, 5m
+    Prepare vegetables  :shrimp2, after shrimp1, 5m
+    Prepare shrimp      :shrimp3, after shrimp2, 5m       
+    Marinate shrimp     :80m
+    Saute protein       :15m
+    Finish sauce        :15m
 
-Cubilia nullam nisl diam congue, pulvinar turpis purus. Tempus nascetur consectetur et, leo curabitur adipiscing. Rutrum risus duis viverra efficitur natoque amet consequat purus. Libero leo gravida maximus aptent consectetur pellentesque, urna justo faucibus. Aptent malesuada interdum magnis nullam lectus inceptos fusce diam nascetur. Eu ridiculus sem facilisi aliquet et sagittis proin. Libero sed fermentum aenean enim cubilia.
+    section Grits
+    Infuse stock        :grits1, after shrimp3, 20m
+    Cook grits          :60m
+</div>
 
-Platea nunc turpis finibus duis imperdiet class non adipiscing! Vivamus nulla tincidunt consectetur magnis platea lobortis. Habitant nec vivamus posuere hendrerit cubilia porta maecenas ultrices quisque. Taciti curae lorem orci imperdiet ligula mus lacinia. Feugiat lacus nisl netus purus nisi consequat leo. Dis eu velit eu; fermentum tortor quam.
+<div class="mermaid">
+gantt
+    title The Short Way
+    dateFormat  H:m
+    axisFormat %H:%M
+    todayMarker off
 
-Semper elementum nunc quis, ridiculus natoque fringilla dignissim felis a. Metus fringilla tristique mauris condimentum gravida. Dapibus tempus torquent vulputate phasellus at taciti metus. Himenaeos adipiscing etiam suspendisse habitant facilisis gravida. Varius quis ligula at rutrum auctor nulla gravida. Alitora accumsan molestie sem himenaeos ultricies faucibus fusce. Molestie vestibulum vivamus nulla malesuada natoque nulla tristique.
+    section Shrimp
+    Prepare shrimp      :shrimp1, 0:0, 5m      
+    Prepare vegetables  :shrimp2, after shrimp1, 5m
+    Mise en Place       :5m
+    Marinate shrimp     :after shrimp1, 30m
+    Saute protein       :0:30, 15m
+    Finish sauce        :0:50, 15m
+
+    section Grits
+    Infuse stock        :grits1, after shrimp1, 20m
+    Cook grits          :after shrimp1, 60m
+</div>
 
 ## Play Around
 
