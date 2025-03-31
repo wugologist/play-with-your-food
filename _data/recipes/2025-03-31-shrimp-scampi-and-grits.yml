@@ -62,16 +62,19 @@ ingredient_groups:
       step: 6
     - name: freshly ground black pepper
       step: 6
+    - name: olive oil
+      quantity: 1 Tbsp
+      step: 8
     - name: garlic
       quantity: 6 cloves
       prep: minced
       step: 8
-    - name: red pepper flakes
-      quantity: 1/4 to 1/2 tsp
-      step: 8
     - name: scallion whites
       prep: thinly sliced
       quantity: 2
+      step: 8
+    - name: red pepper flakes
+      quantity: 1/4 to 1/2 tsp
       step: 8
     - name: dry vermouth
       quantity: 1/2 cup (120 ml)
@@ -102,13 +105,12 @@ ingredient_groups:
       step: 11
 
 equipment: 
-  - whisk
   - small saucepan
   - large saucepan or Dutch oven
+  - whisk
   - saute pan
   - slotted spoon
   - fine mesh strainer
-  - box grater
 
 steps:
   - Drain shrimp of any liquid and blot dry with a paper towel. Peel shrimp, reserving shells in a small saucepan and shrimp in a medium bowl. Add salt, baking soda, and cornstarch to bowl, stir to coat shrimp, and set aside for about 30 minutes.
