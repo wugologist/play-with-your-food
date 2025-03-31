@@ -264,6 +264,25 @@ input:checked + label {
   }
 }
 
+.mermaid {
+  .section0 {
+    fill: $medium !important;
+  }
+  .task {
+    fill: $medium2 !important;
+    stroke: $dark !important;
+  }
+  .taskText {
+    font-family: Commissioner, sans-serif !important;
+  }
+  .taskText0 {
+    fill: $light !important;
+  }
+  .titleText .taskTextOutsideRight {
+    fill: $dark !important;
+  }
+}
+
 @media print {
   header, footer, nav, img {
     display: none;
