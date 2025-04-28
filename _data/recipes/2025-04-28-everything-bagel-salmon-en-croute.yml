@@ -20,6 +20,7 @@ ingredient_groups:
       step: 3
     - name: puff pastry
       quantity: 2 sheets
+      prep: thawed
       step: 4
     - name: egg
       quantity: 1
